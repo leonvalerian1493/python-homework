@@ -6,9 +6,10 @@
     b=851
 
     a**2 + b**2
+    Result=1536002**0.5
+    print(result)
 ```
-
-### Result = 1546250
+### Result = 1239.3554776576411
 
 
 # Slicing
