@@ -3,7 +3,7 @@ from util import read_input
 # if we had a dictionary of results, how would we pick the maximum GC%?
 
 # if we had a FASTA file, how would we get id-sequencde pairs?
-fasta = read_input('./test.fasta')
+fasta = read_input('./sequence.fasta')
 
 sequences = {}
 current_id = ""
@@ -32,6 +32,7 @@ print(sequences)
 # if we had a sequence, how would we calculate the GC%?
 # idea: calculate #Cs, #Gs, add up, divide by length of sequence, *100
 # idea: we solved this problem before! see DNA.py --> paste solution
+
 # counts = {
 #     'A': 0,
 #     'T': 0,
@@ -46,7 +47,11 @@ print(sequences)
 # gc = (counts['G'] + counts['C']) / len(dna) * 100
 # print(gc)
 
+
+
 # # idea: loop over dictionary, see if current value is max
+
+
 # gc_content = {
 #     "id1": 1,
 #     "id3": 89,
@@ -55,6 +60,8 @@ print(sequences)
 # }
 
 # # first define the placeholders for max value and corresponding id:
+
+
 # max_value = 0
 # max_id = ""
 # for seq_id, current_gc_value in gc_content.items():
