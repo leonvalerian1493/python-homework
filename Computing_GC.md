@@ -42,7 +42,7 @@ for val in count_all(s):
     print(val)
 ```
 
-*take string with highest GC content and print its name and percentage
+* take string with highest GC content and print its name and percentage
 
 
 * honestly I have no idea how to even tackle this so above are my logically constructed ideas how to solve this problem. I am looking forward to the group effort in class tomorrow
