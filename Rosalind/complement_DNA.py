@@ -1,4 +1,4 @@
-```python
+
 DNA="AAAACCCGGT"
 reversed= DNA[::-1]
 
@@ -18,4 +18,3 @@ for letter in reversed:
     revc = revc + complement(letter)
 
 print(revc)
-```
