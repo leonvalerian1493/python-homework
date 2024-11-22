@@ -1,4 +1,5 @@
-filepath = "./rosalind/INI5.txt"
+```python
+filepath = "./rosalind_data/INI5.txt"
 with open(filepath, 'r') as infile:
     lines = infile.readlines()
     for line in lines:
@@ -6,3 +7,4 @@ with open(filepath, 'r') as infile:
 
 for l in lines[1::2]:
     print(l.strip())
+  ```
