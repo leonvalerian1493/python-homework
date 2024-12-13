@@ -69,7 +69,7 @@ def reverse_complement(seq):
 
 
 def main():
-    raw = read_input('../rosalind_data/rosalind_revc.txt')  # since the file only contains one line, I just need to keep the first line of the list that read_input returns
+    raw = read_input('Rosalind/revc_text.txt')  # since the file only contains one line, I just need to keep the first line of the list that read_input returns
     dna = raw[0]
 
     # strategy:
